@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D86C56D1F442A1B000E98CE /* QCPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86C56C1F442A1B000E98CE /* QCPathView.m */; };
+		0D86C5731F443B2D000E98CE /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86C5721F443B2D000E98CE /* TestViewController.m */; };
+		0D86C5761F444316000E98CE /* QCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86C5751F444316000E98CE /* QCLayer.m */; };
+		0D86C5791F444FA3000E98CE /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86C5781F444FA3000E98CE /* Test1ViewController.m */; };
 		0DAD37AF1F42928A00C99468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37AE1F42928A00C99468 /* main.m */; };
 		0DAD37B21F42928A00C99468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37B11F42928A00C99468 /* AppDelegate.m */; };
 		0DAD37B51F42928A00C99468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37B41F42928A00C99468 /* ViewController.m */; };
 		0DAD37B81F42928A00C99468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD37B61F42928A00C99468 /* Main.storyboard */; };
 		0DAD37BA1F42928A00C99468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD37B91F42928A00C99468 /* Assets.xcassets */; };
 		0DAD37BD1F42928A00C99468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD37BB1F42928A00C99468 /* LaunchScreen.storyboard */; };
+		0DAD37C61F4292C200C99468 /* QCLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37C51F4292C200C99468 /* QCLineView.m */; };
+		0DAD37C91F42986F00C99468 /* QCRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37C81F42986F00C99468 /* QCRectView.m */; };
+		0DAD37CC1F429D7F00C99468 /* QCArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37CB1F429D7F00C99468 /* QCArcView.m */; };
+		0DAD37CF1F42A33D00C99468 /* QCPiechartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37CE1F42A33D00C99468 /* QCPiechartView.m */; };
+		0DAD37D21F42C42100C99468 /* QCRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D11F42C42100C99468 /* QCRotateView.m */; };
+		0DAD37D51F42C98300C99468 /* QCDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D41F42C98300C99468 /* QCDrawImageView.m */; };
+		0DAD37D81F42CCB100C99468 /* QCImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D71F42CCB100C99468 /* QCImageClipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D86C56B1F442A1B000E98CE /* QCPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCPathView.h; sourceTree = "<group>"; };
+		0D86C56C1F442A1B000E98CE /* QCPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCPathView.m; sourceTree = "<group>"; };
+		0D86C5711F443B2D000E98CE /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0D86C5721F443B2D000E98CE /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0D86C5741F444316000E98CE /* QCLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLayer.h; sourceTree = "<group>"; };
+		0D86C5751F444316000E98CE /* QCLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLayer.m; sourceTree = "<group>"; };
+		0D86C5771F444FA3000E98CE /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		0D86C5781F444FA3000E98CE /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		0DAD37AA1F42928A00C99468 /* Quartz2DTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DAD37AE1F42928A00C99468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DAD37B01F42928A00C99468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,20 @@
 		0DAD37B91F42928A00C99468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DAD37BC1F42928A00C99468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DAD37BE1F42928A00C99468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD37C41F4292C200C99468 /* QCLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLineView.h; sourceTree = "<group>"; };
+		0DAD37C51F4292C200C99468 /* QCLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLineView.m; sourceTree = "<group>"; };
+		0DAD37C71F42986F00C99468 /* QCRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCRectView.h; sourceTree = "<group>"; };
+		0DAD37C81F42986F00C99468 /* QCRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCRectView.m; sourceTree = "<group>"; };
+		0DAD37CA1F429D7F00C99468 /* QCArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCArcView.h; sourceTree = "<group>"; };
+		0DAD37CB1F429D7F00C99468 /* QCArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCArcView.m; sourceTree = "<group>"; };
+		0DAD37CD1F42A33D00C99468 /* QCPiechartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCPiechartView.h; sourceTree = "<group>"; };
+		0DAD37CE1F42A33D00C99468 /* QCPiechartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCPiechartView.m; sourceTree = "<group>"; };
+		0DAD37D01F42C42100C99468 /* QCRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCRotateView.h; sourceTree = "<group>"; };
+		0DAD37D11F42C42100C99468 /* QCRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCRotateView.m; sourceTree = "<group>"; };
+		0DAD37D31F42C98300C99468 /* QCDrawImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCDrawImageView.h; sourceTree = "<group>"; };
+		0DAD37D41F42C98300C99468 /* QCDrawImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDrawImageView.m; sourceTree = "<group>"; };
+		0DAD37D61F42CCB100C99468 /* QCImageClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCImageClipView.h; sourceTree = "<group>"; };
+		0DAD37D71F42CCB100C99468 /* QCImageClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCImageClipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +95,28 @@
 				0DAD37B11F42928A00C99468 /* AppDelegate.m */,
 				0DAD37B31F42928A00C99468 /* ViewController.h */,
 				0DAD37B41F42928A00C99468 /* ViewController.m */,
+				0D86C5711F443B2D000E98CE /* TestViewController.h */,
+				0D86C5721F443B2D000E98CE /* TestViewController.m */,
+				0D86C5771F444FA3000E98CE /* Test1ViewController.h */,
+				0D86C5781F444FA3000E98CE /* Test1ViewController.m */,
+				0DAD37C41F4292C200C99468 /* QCLineView.h */,
+				0DAD37C51F4292C200C99468 /* QCLineView.m */,
+				0DAD37C71F42986F00C99468 /* QCRectView.h */,
+				0DAD37C81F42986F00C99468 /* QCRectView.m */,
+				0DAD37CA1F429D7F00C99468 /* QCArcView.h */,
+				0DAD37CB1F429D7F00C99468 /* QCArcView.m */,
+				0DAD37CD1F42A33D00C99468 /* QCPiechartView.h */,
+				0DAD37CE1F42A33D00C99468 /* QCPiechartView.m */,
+				0DAD37D01F42C42100C99468 /* QCRotateView.h */,
+				0DAD37D11F42C42100C99468 /* QCRotateView.m */,
+				0DAD37D31F42C98300C99468 /* QCDrawImageView.h */,
+				0DAD37D41F42C98300C99468 /* QCDrawImageView.m */,
+				0DAD37D61F42CCB100C99468 /* QCImageClipView.h */,
+				0DAD37D71F42CCB100C99468 /* QCImageClipView.m */,
+				0D86C56B1F442A1B000E98CE /* QCPathView.h */,
+				0D86C56C1F442A1B000E98CE /* QCPathView.m */,
+				0D86C5741F444316000E98CE /* QCLayer.h */,
+				0D86C5751F444316000E98CE /* QCLayer.m */,
 				0DAD37B61F42928A00C99468 /* Main.storyboard */,
 				0DAD37B91F42928A00C99468 /* Assets.xcassets */,
 				0DAD37BB1F42928A00C99468 /* LaunchScreen.storyboard */,
@@ -151,8 +206,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DAD37B51F42928A00C99468 /* ViewController.m in Sources */,
+				0DAD37CC1F429D7F00C99468 /* QCArcView.m in Sources */,
+				0DAD37CF1F42A33D00C99468 /* QCPiechartView.m in Sources */,
 				0DAD37B21F42928A00C99468 /* AppDelegate.m in Sources */,
+				0D86C5791F444FA3000E98CE /* Test1ViewController.m in Sources */,
+				0DAD37C61F4292C200C99468 /* QCLineView.m in Sources */,
+				0DAD37C91F42986F00C99468 /* QCRectView.m in Sources */,
+				0D86C5731F443B2D000E98CE /* TestViewController.m in Sources */,
+				0DAD37D81F42CCB100C99468 /* QCImageClipView.m in Sources */,
 				0DAD37AF1F42928A00C99468 /* main.m in Sources */,
+				0D86C5761F444316000E98CE /* QCLayer.m in Sources */,
+				0DAD37D51F42C98300C99468 /* QCDrawImageView.m in Sources */,
+				0DAD37D21F42C42100C99468 /* QCRotateView.m in Sources */,
+				0D86C56D1F442A1B000E98CE /* QCPathView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +375,7 @@
 				0DAD37C31F42928A00C99468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
