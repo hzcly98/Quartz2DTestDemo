@@ -26,20 +26,19 @@
     CGContextSetLineWidth(ctx, 5);
     
 //    CGContextSetRGBStrokeColor(ctx, 1, 0, 0, 1);
-    [[UIColor cyanColor] set];          // 同时设置了实心和空心
-//    [[UIColor cyanColor] setStroke];  // 设置空心
-//    [[UIColor cyanColor] setFill];    // 设置实心
+//    [[UIColor cyanColor] set];          // 同时设置了实心和空心
+    [[UIColor blackColor] setStroke];  // 设置空心
+    [[UIColor cyanColor] setFill];    // 设置实心
     
     
 //    CGContextSetRGBFillColor(ctx, 0, 0, 1, 1);
     //关闭起点和终点
     CGContextClosePath(ctx);
     
-     // 3.渲染图形到layer上
+     // 3.渲染图形到layer上 CGContextStrokePath 和 CGContextFillPath 这两种方式不能同时渲染stroke和fill，要想实现同时渲染，需要通过CGContextDrawPath(ctx, kCGPathFillStroke)方式实现！
 //     CGContextStrokePath(ctx);
-
-    CGContextFillPath(ctx);
-    
+//    CGContextFillPath(ctx);
+    CGContextDrawPath(ctx, kCGPathFillStroke);
     
 }
 
