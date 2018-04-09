@@ -8,6 +8,7 @@
 
 #import "TestViewController.h"
 #import "QCLayer.h"
+#import "Test2ViewController.h"
 
 @interface TestViewController ()<CALayerDelegate>
 @property (nonatomic, strong) CALayer *layer;
@@ -63,6 +64,18 @@
     myLayer1.delegate = self; // 让控制器成为layer代理，
     [myLayer1 setNeedsDisplay];
     
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"modal" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn sizeToFit];
+    btn.center = CGPointMake(self.view.center.x, CGRectGetMaxY(myLayer1.frame) + 50);
+    [btn addTarget:self action:@selector(presentClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+- (void)presentClick {
+    
+    [self presentViewController:[Test2ViewController new] animated:YES completion:nil];
     
 }
 

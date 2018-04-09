@@ -24,6 +24,7 @@
 		0DAD37D21F42C42100C99468 /* QCRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D11F42C42100C99468 /* QCRotateView.m */; };
 		0DAD37D51F42C98300C99468 /* QCDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D41F42C98300C99468 /* QCDrawImageView.m */; };
 		0DAD37D81F42CCB100C99468 /* QCImageClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD37D71F42CCB100C99468 /* QCImageClipView.m */; };
+		2CB4ED30207BA697007EF439 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4ED2F207BA697007EF439 /* Test2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		0DAD37D41F42C98300C99468 /* QCDrawImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCDrawImageView.m; sourceTree = "<group>"; };
 		0DAD37D61F42CCB100C99468 /* QCImageClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCImageClipView.h; sourceTree = "<group>"; };
 		0DAD37D71F42CCB100C99468 /* QCImageClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCImageClipView.m; sourceTree = "<group>"; };
+		2CB4ED2E207BA697007EF439 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		2CB4ED2F207BA697007EF439 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				0D86C5721F443B2D000E98CE /* TestViewController.m */,
 				0D86C5771F444FA3000E98CE /* Test1ViewController.h */,
 				0D86C5781F444FA3000E98CE /* Test1ViewController.m */,
+				2CB4ED2E207BA697007EF439 /* Test2ViewController.h */,
+				2CB4ED2F207BA697007EF439 /* Test2ViewController.m */,
 				0DAD37C41F4292C200C99468 /* QCLineView.h */,
 				0DAD37C51F4292C200C99468 /* QCLineView.m */,
 				0DAD37C71F42986F00C99468 /* QCRectView.h */,
@@ -205,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB4ED30207BA697007EF439 /* Test2ViewController.m in Sources */,
 				0DAD37B51F42928A00C99468 /* ViewController.m in Sources */,
 				0DAD37CC1F429D7F00C99468 /* QCArcView.m in Sources */,
 				0DAD37CF1F42A33D00C99468 /* QCPiechartView.m in Sources */,
